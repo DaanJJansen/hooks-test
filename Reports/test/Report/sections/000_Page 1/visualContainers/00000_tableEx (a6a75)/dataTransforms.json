@@ -1,0 +1,75 @@
+{
+  "projectionOrdering": {
+    "Values": [
+      0
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Dagen",
+        "Name": "Min(DIM_DAGDEEL_SEC.DAGDEEL)",
+        "Type": 2048
+      }
+    ],
+    "Filters": [
+      {
+        "type": 2,
+        "expression": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "DIM_DAGDEEL_SEC"
+                  }
+                },
+                "Property": "DAGDEEL"
+              }
+            },
+            "Function": 3
+          }
+        }
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Values",
+          "Projection": 0,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Dagen",
+      "queryName": "Min(DIM_DAGDEEL_SEC.DAGDEEL)",
+      "roles": {
+        "Values": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Aggregation": {
+          "Expression": {
+            "Column": {
+              "Expression": {
+                "SourceRef": {
+                  "Entity": "DIM_DAGDEEL_SEC"
+                }
+              },
+              "Property": "DAGDEEL"
+            }
+          },
+          "Function": 3
+        }
+      }
+    }
+  ]
+}
