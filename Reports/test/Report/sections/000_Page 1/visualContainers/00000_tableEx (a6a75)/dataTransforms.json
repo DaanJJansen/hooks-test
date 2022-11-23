@@ -7,7 +7,7 @@
   "queryMetadata": {
     "Select": [
       {
-        "Restatement": "DagenNieuw",
+        "Restatement": "DagenNieuwDeel2",
         "Name": "Min(DIM_DAGDEEL_SEC.DAGDEEL)",
         "Type": 2048
       }
@@ -46,12 +46,12 @@
   ],
   "selects": [
     {
-      "displayName": "DagenNieuw",
+      "displayName": "DagenNieuwDeel2",
       "queryName": "Min(DIM_DAGDEEL_SEC.DAGDEEL)",
       "roles": {
         "Values": true
       },
-      "sort": 2,
+      "sort": 1,
       "sortOrder": 0,
       "type": {
         "category": null,

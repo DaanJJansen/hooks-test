@@ -31,7 +31,7 @@
           ],
           "OrderBy": [
             {
-              "Direction": 2,
+              "Direction": 1,
               "Expression": {
                 "Aggregation": {
                   "Expression": {

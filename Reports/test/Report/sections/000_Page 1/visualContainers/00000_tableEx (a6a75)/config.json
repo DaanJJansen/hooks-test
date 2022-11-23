@@ -50,7 +50,7 @@
       ],
       "OrderBy": [
         {
-          "Direction": 2,
+          "Direction": 1,
           "Expression": {
             "Aggregation": {
               "Expression": {
@@ -71,7 +71,7 @@
     },
     "columnProperties": {
       "Min(DIM_DAGDEEL_SEC.DAGDEEL)": {
-        "displayName": "DagenNieuw"
+        "displayName": "DagenNieuwDeel2"
       }
     },
     "drillFilterOtherVisuals": true
