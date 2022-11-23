@@ -28,6 +28,26 @@
               },
               "Name": "Min(DIM_DAGDEEL_SEC.DAGDEEL)"
             }
+          ],
+          "OrderBy": [
+            {
+              "Direction": 2,
+              "Expression": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "d"
+                        }
+                      },
+                      "Property": "DAGDEEL"
+                    }
+                  },
+                  "Function": 3
+                }
+              }
+            }
           ]
         },
         "Binding": {
