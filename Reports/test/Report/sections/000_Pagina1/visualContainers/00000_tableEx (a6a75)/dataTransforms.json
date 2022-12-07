@@ -11,26 +11,6 @@
         "Name": "Min(DIM_DAGDEEL_SEC.DAGDEEL)",
         "Type": 2048
       }
-    ],
-    "Filters": [
-      {
-        "type": 2,
-        "expression": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "DIM_DAGDEEL_SEC"
-                  }
-                },
-                "Property": "DAGDEEL"
-              }
-            },
-            "Function": 3
-          }
-        }
-      }
     ]
   },
   "visualElements": [

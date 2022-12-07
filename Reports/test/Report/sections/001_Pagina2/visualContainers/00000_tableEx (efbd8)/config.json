@@ -1,0 +1,49 @@
+{
+  "name": "efbd8fe4e546a32300ab",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 10,
+        "y": 0,
+        "width": 280,
+        "height": 280,
+        "z": 0
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "tableEx",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "DIM_DAGDEEL_SEC.DAGDEEL"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "DIM_DAGDEEL_SEC",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Source": "d"
+              }
+            },
+            "Property": "DAGDEEL"
+          },
+          "Name": "DIM_DAGDEEL_SEC.DAGDEEL"
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
